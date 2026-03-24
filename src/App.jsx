@@ -10,8 +10,8 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
 
   return (
-    <div>
-      <div>
+    <div className='h-full'>
+      <div className='h-full'>
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />}/>
